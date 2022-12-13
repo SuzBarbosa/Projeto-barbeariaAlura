@@ -1,14 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+:root{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
 header {
     background: #BBBBBB;
     padding: 20 0;
 }
-.caixa{
+.caixa { 
     position: relative;
     width: 940px;
     margin: 0 auto;
 }
 
-nav{
+nav {
     position:absolute;
     top: 110px;
     right: 0;
@@ -26,11 +33,114 @@ nav a {
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+    transition: 1s;
 }
 
 nav a:hover{
-    color: #C78C19;
-    text-decoration: underline;
+    color: #e52222e3;
+    text-decoration: wavy;
+    transform: scale(1.3);
+    font-size: larger;
+}
+
+.banner {
+    width: 100%;
+}
+
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+
+}
+.titulo-principal:before{
+    content: "[ ";
+}
+.titulo-principal:after{
+    content: " ]";
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.mapa {
+    padding: 3em 0 ;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+
+.beneficios {
+    padding: 3em 0;
+    background: #888888;
+    margin: 0 auto;
+}
+
+.img-beneficios {
+    width: 60%;
+}
+
+.utensilios {
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5em;
+}
+
+.itens:nth-child(2n) {
+    font-weight: bolder;
+}
+
+.itens:before {
+    content: "★";
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
 }
 
 .produtos {
@@ -53,7 +163,7 @@ nav a:hover{
 }
 
 .produtos li:hover{
-    border-color: #C78C19;
+    border-color: #f90e0e90;
     
 }
 
@@ -79,21 +189,6 @@ nav a:hover{
     margin: 10px 0 0;
 }
 
-footer {
-    text-align: center;
-    background-image: url("./bg.jpg");
-}
-
-.copyright{
-    color: #FFFFFF;
-    font-size: 13px;
-    margin: 10px 0;
-}
-
-main {
-    width: 940px;
-    margin: 0 auto;
-}
 
 form {
 
@@ -149,4 +244,16 @@ thead {
 td, th {
     border: 1px solid #000000;
     padding: 8px 15px;
+}
+
+
+footer {
+    text-align: center;
+    background-image: url("./bg.jpg");
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 10px 0;
 }
