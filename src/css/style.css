@@ -1,5 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
+@media screen and (max-device-width: 480px) {
+    .caixa, .principal, .mapa-conteudo, .conteudo-beneficios, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .img-beneficios {
+        width: 100%;
+    }
+
+    .produtos {
+        width: auto;
+    }
+
+    .produtos li {
+        width: auto;
+        margin: 1em;
+        display: block;
+    }
+    
+    form {
+        width: auto;
+        text-align: center;       
+    }
+
+    .input-padrao {
+        width: 89%;
+        padding: 0px;
+        height: 3em;
+        margin: 0 auto;
+    }
+
+    #mensagem{
+        height: 5em;
+    }
+
+    table {
+        margin: 1em auto;
+    }
+
+    form label {
+        padding: 2px;
+    }
+
+    fieldset > legend {
+        padding: 5px;
+    }
+}
+
 :root{
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -61,6 +117,8 @@ nav a:hover{
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+    color: rgba(0,0,0,0.5);
+    text-shadow: 2px 2px #000000;
 
 }
 .titulo-principal:before{
@@ -106,6 +164,13 @@ nav a:hover{
 
 .img-beneficios {
     width: 60%;
+    transition: 400ms;
+    opacity: 1;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+.img-beneficios:hover {
+    opacity: 50%;
 }
 
 .utensilios {
