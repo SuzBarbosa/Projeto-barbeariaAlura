@@ -282,12 +282,15 @@ footer {
     
     }
 
-    .lista-beneficios, .img-beneficios {
+    .lista-beneficios {
+        width: 80%;
+    }
+
+    .img-beneficios {
         width: 80%;
         margin-bottom: 50px;
         margin-left: 50px
     }
-
     .produtos {
         width: 100%;
     }
