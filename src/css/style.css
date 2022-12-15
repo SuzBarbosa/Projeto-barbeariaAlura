@@ -288,8 +288,8 @@ footer {
 
     .img-beneficios {
         width: 80%;
-        margin-bottom: 50px;
-        margin-left: 50px
+        margin:  10px 50px 20px;
+        
     }
     .produtos {
         width: 100%;
@@ -329,7 +329,3 @@ footer {
         padding: 5px;
     } 
 }
-
-
-
-
