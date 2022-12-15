@@ -271,6 +271,11 @@ footer {
      .caixa, .mapa-conteudo, .conteudo-beneficios, .video, .titulo-principal {
         width: 100%;
         text-align: center;
+        padding: 15px;
+    }
+    .principal {
+        width: 100%;
+        text-align: center;
     }
 
     h1, h2 {
