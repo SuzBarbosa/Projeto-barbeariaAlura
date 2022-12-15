@@ -1,61 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap');
-
-@media screen and (max-device-width: 480px) {
-    .caixa, .principal, .mapa-conteudo, .conteudo-beneficios, .video {
-        width: auto;
-    }
-
-    h1 {
-        text-align: center;
-    }
-
-    nav {
-        position: static;
-    }
-
-    .lista-beneficios, .img-beneficios {
-        width: 100%;
-    }
-
-    .produtos {
-        width: auto;
-    }
-
-    .produtos li {
-        width: auto;
-        margin: 1em;
-        display: block;
-    }
-    
-    form {
-        width: auto;
-        text-align: center;       
-    }
-
-    .input-padrao {
-        width: 89%;
-        padding: 0px;
-        height: 3em;
-        margin: 0 auto;
-    }
-
-    #mensagem{
-        height: 5em;
-    }
-
-    table {
-        margin: 1em auto;
-    }
-
-    form label {
-        padding: 2px;
-    }
-
-    fieldset > legend {
-        padding: 5px;
-    }
-}
-
 :root{
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -322,3 +265,68 @@ footer {
     font-size: 13px;
     margin: 10px 0;
 }
+
+
+@media (max-width: 480px) {
+     .caixa, .mapa-conteudo, .conteudo-beneficios, .video, .titulo-principal {
+        width: 100%;
+        text-align: center;
+    }
+
+    h1, h2 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    
+    }
+
+    .lista-beneficios, .img-beneficios {
+        width: 80%;
+        margin-bottom: 50px;
+        margin-left: 50px
+    }
+
+    .produtos {
+        width: 100%;
+    }
+
+    .produtos li {
+        width: 100%;
+        margin: 1em;
+        display: block;
+    }
+    
+    form {
+        width: auto;
+        text-align: center;       
+    }
+
+    .input-padrao {
+        width: 89%;
+        padding: 0px;
+        height: 3em;
+        margin: 0 auto;
+    }
+
+    #mensagem{
+        height: 5em;
+    }
+
+    table {
+        margin: 1em auto;
+    }
+
+    form label {
+        padding: 2px;
+    }
+
+    fieldset > legend {
+        padding: 5px;
+    } 
+}
+
+
+
+
